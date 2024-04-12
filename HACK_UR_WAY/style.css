@@ -1,0 +1,25 @@
+body{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+a{
+    color: purple;
+    font-weight: bold;
+}
+.inp_field{
+    border-radius: 2rem;
+    margin-bottom: 20px;
+    background-color: #111;
+    color: white;
+    border: 2px solid white;
+}
+button{
+    width: 10rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right,rgba(255, 55, 0, 0.904),rgb(255, 204, 0));
+    color: rgb(255, 255, 255);
+}

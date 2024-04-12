@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/style_form.css">
+</head>
+<h1>Welcome to Our Travel Website</h1>
+        <div class="nav">
+                <a href="#home">Home</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#packages">Packages</a>
+                <a href="#contact">Contact</a>
+        </div>
+<body>
+    <div class="container"
+        img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNiUtp8PNjy7Ttunh0Hcm6RlFVwftk4UuyNr_E-aoOzw&s" alt="Big Image" class="big-image">
+
+        <div class="small-images">
+            <img src="https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2276.jpg" class="small-image">
+        </div>
+            
+        <div class="small-image" img src="https://storage.googleapis.com/pai-images/9d544e30a076446ab7c4f9785362f4bb.jpeg" class="small-image">
+        </div>
+        <div img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/c5/15/32/skyline-king-room.jpg" class="small-image">
+        </div>
+    </div>   
+    <header>
+
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label FOR="username">Enter your username</label>
+                <input type="text" name="First name" placeholder="First name" id="fname" class="input-field">
+                <input type="text" name="last name" placeholder="Last name" id="lname" class="input-field">
+            </div>
+            <div class="form-group">
+                <label FOR="email">Enter your Email</label>
+                <input type="email" name="email" placeholder="Email" id="email" class="input-field">
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+             <div class="form-group">
+                <select name="room type">
+                    <option value="single bedroom">single bedroom</option>
+                    <option value="double bedroom">double bedroom</option>
+                    <option value="triple bedroom">triple bedroom</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" name="no of guests" placeholder="no of guests" id="noofguest" class="input-field">
+            </div>
+                
+            
+        
+    </header>
+
+            
+        </form>
+    </div>
+</body>
+</html>
